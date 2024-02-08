@@ -1,0 +1,3 @@
+[submodule "libs"]
+	path = libs
+	url = ssh://git@git.tuwr.at:4122/electronics/libs.git
