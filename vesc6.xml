@@ -1,0 +1,3325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\paulr\vesc_6_2\vesc6.kicad_sch</source>
+    <date>16.02.2024 15:32:52</date>
+    <tool>Eeschema 7.0.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>vesc6.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>vesc_left.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/VESC_Right/MCU/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/03118c1d-f2fe-4ea9-9d88-00e0583f5831/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>mcu.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>drv8301.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/VESC_Right/CAN/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c257b8a6-6d1e-4324-8ba8-0db9ba23705f/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>can.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Main</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vesc6.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c93b9b08-d390-4aed-9873-93f4e6c472f8</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>f7e3c89f-fdc0-4083-aa42-15194db29373</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>GRN</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>1eff8f77-d4d6-4e04-b2fb-742aaf96bb7a</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>8d3f2f8f-1fea-4283-afa6-0922070e67d3</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>BLU</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>710d890b-50f9-421f-bc95-d3da45de6f8e</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>HALL_ENC</value>
+      <footprint>Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>894d3466-f793-408a-a866-99f315963b4b</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>USB</value>
+      <footprint>Connector_USB:USB_Micro-B_Wuerth_614105150721_Vertical_CircularHoles</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="USB_OTG" description="USB mini/micro connector"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="USB mini/micro connector"/>
+      <property name="ki_keywords" value="connector USB"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>e95e593b-45e1-40cd-bbab-7db6eec37864</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>d4a0a1b7-02af-49d2-8ff7-3dff1470e7a3</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>1e8d4929-1d5c-46e9-886e-ec071d6907bf</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>14f5500f-0e48-445c-80b4-9bef4f704f7d</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>78d56814-0191-484e-8279-15e21d378c70</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>db457851-fb3a-491d-820c-3f6a38721199</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>93aa5a48-53d6-419a-acb4-21c396b91ba5</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>1a230c9f-6c49-4a0a-8fdd-6d0d9f0d0024</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>ddb958e1-1faf-40d0-b0e9-3f6f637cf156</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>4e7cff74-8186-44d5-a27f-851187e29776</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>186eb5de-33c6-441e-a188-e7402d990a9b</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SENS_VOLTAGE</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm</footprint>
+      <libsource lib="Switch" part="SW_Push_SPDT" description="Momentary Switch, single pole double throw"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="Momentary Switch, single pole double throw"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>4b1aca9b-9b36-4e45-82f1-e1b1c3740b9b</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>SWCLK</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>a5d7e7de-079f-4ec4-9d7b-08b1605ffa6d</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>SWDIO</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>1349dd38-92c9-462d-8b2e-3197c0cdde1d</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>NRST</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>6bd1ed92-70c5-4e59-b5a2-9fa27a9f0e0c</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="VESC_Right"/>
+      <property name="Sheetfile" value="vesc_left.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/VESC_Right/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/"/>
+      <tstamps>a3d18da7-1e8b-4949-a6c3-2198bc6061bb</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/MCU/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/03118c1d-f2fe-4ea9-9d88-00e0583f5831/"/>
+      <tstamps>899bb1bc-e639-40eb-b749-a45c776bd92f</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/MCU/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/03118c1d-f2fe-4ea9-9d88-00e0583f5831/"/>
+      <tstamps>524cb9ad-0517-4898-b980-899bbaf41d36</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/MCU/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/03118c1d-f2fe-4ea9-9d88-00e0583f5831/"/>
+      <tstamps>71ae5b27-eef4-41bd-a05c-5ac5a7eb5829</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/MCU/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/03118c1d-f2fe-4ea9-9d88-00e0583f5831/"/>
+      <tstamps>5f641f74-ac6d-4e5e-ad8d-2abd83a9bf5d</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/MCU/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/03118c1d-f2fe-4ea9-9d88-00e0583f5831/"/>
+      <tstamps>5772b9d1-7107-42cb-9ce2-292acd799473</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>15p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/MCU/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/03118c1d-f2fe-4ea9-9d88-00e0583f5831/"/>
+      <tstamps>89885f1a-c049-4161-b33e-e6da5f941fa6</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>15p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/MCU/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/03118c1d-f2fe-4ea9-9d88-00e0583f5831/"/>
+      <tstamps>8675f304-6329-41bd-ab4d-827f2d99856a</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/MCU/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/03118c1d-f2fe-4ea9-9d88-00e0583f5831/"/>
+      <tstamps>471647a5-12dd-41be-b62d-562119d1d58a</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/MCU/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/03118c1d-f2fe-4ea9-9d88-00e0583f5831/"/>
+      <tstamps>f9053603-243a-439b-8d7e-9fd2bfa2b2e3</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/MCU/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/03118c1d-f2fe-4ea9-9d88-00e0583f5831/"/>
+      <tstamps>89f28e48-f8da-4735-a8e7-6bcb4d97c6e4</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>STM32F405RGTx</value>
+      <footprint>Package_QFP:LQFP-64_10x10mm_P0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf</datasheet>
+      <fields>
+        <field name="LCSC-PN">C15742</field>
+      </fields>
+      <libsource lib="MCU_ST_STM32F4" part="STM32F405RGTx" description="ARM Cortex-M4 MCU, 1024KB flash, 128KB RAM, 168MHz, 1.8-3.6V, 51 GPIO, LQFP-64"/>
+      <property name="LCSC-PN" value="C15742"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_description" value="ARM Cortex-M4 MCU, 1024KB flash, 128KB RAM, 168MHz, 1.8-3.6V, 51 GPIO, LQFP-64"/>
+      <property name="ki_keywords" value="ARM Cortex-M4 STM32F4 STM32F405/415"/>
+      <sheetpath names="/VESC_Right/MCU/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/03118c1d-f2fe-4ea9-9d88-00e0583f5831/"/>
+      <tstamps>8e15ab35-b9eb-4470-8ae6-ef9989dd1353</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>8M</value>
+      <footprint>Crystal:Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm_HandSoldering</footprint>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_description" value="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/VESC_Right/MCU/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/03118c1d-f2fe-4ea9-9d88-00e0583f5831/"/>
+      <tstamps>ebc5e629-f770-4d6e-96b7-576b19967975</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>6n8</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>6d401567-f409-41b4-91de-3e173a8a9ca6</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>a69a5b7f-f9b2-4ff6-ab2e-933609af4a33</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>ee28673c-f49a-4dcf-81d4-6df762852b4f</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>cbb47757-811a-456c-a30f-b840054354d6</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>120p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>fcc31b3f-e489-4160-84f6-c5355f169a65</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>b17fb0ff-aafa-415f-baf7-c93a79f41f00</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>44c50e89-9564-4008-abd4-d3dd44e45dcc</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>22n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>95710068-b900-4ac9-8261-74d3215e0e02</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>014490ee-bf1b-424a-86d3-130673a70f7f</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>15n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>6ea12b62-fc4b-46e0-afa6-78b5e838ee25</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>608137aa-4df1-4a0e-a2b8-afafa553b4d6</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>20d7c6dc-cb05-4164-a744-8e9f75f7acba</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>e2f22603-b758-470b-8720-b4dea859c8cd</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>a7180433-d059-4a25-894a-30851d2b7b7e</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>dae8235c-2128-4f70-9cc6-c9995350f699</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>55a33610-66ad-4a13-ac05-6a98992a8ef8</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>b272c4e5-0b02-43f6-b983-d604fc5063cb</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>0dce4e68-5b97-4cf7-9f61-8d88544d46f7</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>399bc501-c59e-4cab-9b4c-0fba15b9a99e</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>100u</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B</footprint>
+      <fields>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>963b3f89-656f-492b-8a86-e8b93a5fb45b</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>64cba028-b05b-4d1a-b44e-a36aca3d109d</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>c742657e-9c34-4ba2-ae77-5cf3c5378a12</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>100u</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B</footprint>
+      <fields>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>476c3901-a1f1-4f8e-a4f2-c714c044303a</tstamps>
+    </comp>
+    <comp ref="C56">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x6.2</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Nichicon-UCD1J220MCL6GS_C445454.pdf</datasheet>
+      <fields>
+        <field name="LCSC-PN">C445454</field>
+        <field name="Voltage">63V</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="LCSC-PN" value="C445454"/>
+      <property name="Voltage" value="63V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>79a8c0e0-6d75-4703-a6a8-a9c6c2dbcda0</tstamps>
+    </comp>
+    <comp ref="C58">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x6.2</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Nichicon-UCD1J220MCL6GS_C445454.pdf</datasheet>
+      <fields>
+        <field name="LCSC-PN">C445454</field>
+        <field name="Voltage">63V</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="LCSC-PN" value="C445454"/>
+      <property name="Voltage" value="63V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>0bfab70a-b347-4286-928e-5fdb892915e3</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SOD-128</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2004031108_Nexperia-PMEG10030ELP_C503376.pdf</datasheet>
+      <fields>
+        <field name="LCSC-PN">C503376</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC-PN" value="C503376"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>35e0a018-5548-46c0-b5e9-28ba863e63f5</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>5V</value>
+      <footprint>Diode_SMD:D_SOD-128</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Nexperia-PTVS5V0P1UP-115_C426873.pdf</datasheet>
+      <fields>
+        <field name="LCSC-PN">C426873</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="LCSC-PN" value="C426873"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>e2ae28c2-2328-4e1d-9d28-a6ff24110158</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>FerriteBead</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2305221646_YJYCOIN-YI321611U601-3R0T_C2858472.pdf</datasheet>
+      <fields>
+        <field name="LCSC-PN">C2858472</field>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="LCSC-PN" value="C2858472"/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Ferrite bead"/>
+      <property name="ki_keywords" value="L ferrite bead inductor filter"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>4a27eaeb-75d4-45d2-943f-339e65dd126d</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>22u</value>
+      <footprint>Inductor_SMD:L_Bourns-SRN4018</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2201121400_SHOU-HAN-CY43-22UH_C2929420.pdf</datasheet>
+      <fields>
+        <field name="LCSC-PN">C2929420</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC-PN" value="C2929420"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>3937d6e5-284f-48a2-b66e-f5ad1d568909</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMN62D0UW</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2308101701_Diodes-Incorporated-DMN62D0UWQ-7_C5248878.pdf</datasheet>
+      <fields>
+        <field name="LCSC-PN">C5248878</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC-PN" value="C5248878"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/source/drain"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>5f831801-4190-450e-b0f1-3eb86d3ff196</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>7e7bb7be-f603-4593-abc0-86e0768e1fbf</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>18k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>7ebe43ac-7822-4e69-a515-c83085b0ba1c</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>15k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>c50b55e6-3f10-4eb7-bee2-409d3be93a29</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>39k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>3bfea1de-f5f3-4db6-b840-056917dc00d5</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>b04f5915-ca41-466f-8e50-c20aa73f8f66</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>220k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>e094d5d6-6455-4073-bf2f-27d239209488</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>5f4f1884-7d42-44d9-9ec8-4ed614126bb7</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>39k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>e3179594-4f26-49d2-aeda-6f551d0f4f54</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>db111828-1b81-4b8b-ad99-3c48ea34cc66</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>39k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>d6c421c7-5d2c-4fc1-b317-15d67f4b4a90</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>b030eb34-4a44-4a4a-a39a-48811cf92457</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>39K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>f3a32538-7777-44a9-90c6-59396436b2c3</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>03ec7a9c-7bfc-4efa-8869-838123075a21</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>Mc74VHC1GT66</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>https://www.lcsc.com/product-detail/span-style-background-color-ff0-Analog-span-Switches-Multiplexers_Texas-Instruments-SN74LVC1G66DCKR_C113518.html</datasheet>
+      <fields>
+        <field name="LCSC-PN">C113518</field>
+      </fields>
+      <libsource lib="TUWR_IC" part="Mc74VHC1GT66" description=""/>
+      <property name="LCSC-PN" value="C113518"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>7f7bd943-75c6-46cb-b94c-abd9a233a0c6</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>DRV8301DCAR</value>
+      <footprint>Package_SO:HTSSOP-56-1EP_6.1x14mm_P0.5mm_EP3.61x6.35mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1808280253_Texas-Instruments-DRV8301DCAR_C98969.pdf</datasheet>
+      <fields>
+        <field name="LCSC-PN">C98969</field>
+      </fields>
+      <libsource lib="2023-03-11_13-45-03" part="DRV8301DCAR" description=""/>
+      <property name="LCSC-PN" value="C98969"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>a56b79cf-a158-4c78-a97b-cbbca79f9f45</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>Mc74VHC1GT66</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>https://www.lcsc.com/product-detail/span-style-background-color-ff0-Analog-span-Switches-Multiplexers_Texas-Instruments-SN74LVC1G66DCKR_C113518.html</datasheet>
+      <fields>
+        <field name="LCSC-PN">C113518</field>
+      </fields>
+      <libsource lib="TUWR_IC" part="Mc74VHC1GT66" description=""/>
+      <property name="LCSC-PN" value="C113518"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>eb99fb3b-0bb9-4a59-859c-a1d125d97847</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>Mc74VHC1GT66</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>https://www.lcsc.com/product-detail/span-style-background-color-ff0-Analog-span-Switches-Multiplexers_Texas-Instruments-SN74LVC1G66DCKR_C113518.html</datasheet>
+      <fields>
+        <field name="LCSC-PN">C113518</field>
+      </fields>
+      <libsource lib="TUWR_IC" part="Mc74VHC1GT66" description=""/>
+      <property name="LCSC-PN" value="C113518"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>89dcd065-ea27-4f73-b6fe-23d6a18477f3</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>TLV73333PDBV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv733p.pdf</datasheet>
+      <fields>
+        <field name="LCSC-PN">C134139</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV73333PDBV" description="300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <property name="LCSC-PN" value="C134139"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="DRV8301"/>
+      <property name="Sheetfile" value="drv8301.kicad_sch"/>
+      <property name="ki_description" value="300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <property name="ki_keywords" value="300mA LDO Regulator Fixed Positive Capacitor-Free"/>
+      <sheetpath names="/VESC_Right/DRV8301/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/9cdfdc58-2eba-4f8c-be50-9348f885ecd9/"/>
+      <tstamps>6ed3fc85-d979-46b3-b761-be62ea5d4efb</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>a17bcf3a-47f1-46bc-8b7d-a6713538fbe8</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>15n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>a84436d3-327a-4e22-8e6c-2b14951c22c2</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>6cca1470-b6dc-42b0-8069-16c3935e816c</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>f52980d7-e481-4a61-ad12-57ee9aa3021e</tstamps>
+    </comp>
+    <comp ref="C42">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>cfec5a4a-ded3-4f0a-90fa-60345388cfac</tstamps>
+    </comp>
+    <comp ref="C43">
+      <value>470u</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Voltage">80V</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="80V"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>3f75678f-894b-45eb-8c56-394fa9616458</tstamps>
+    </comp>
+    <comp ref="C44">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>8c18976e-51eb-4ee7-8c29-2b5957c3ebb4</tstamps>
+    </comp>
+    <comp ref="C45">
+      <value>470u</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Voltage">80V</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="80V"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>4a07321f-4b60-46cc-94dd-5d291f406721</tstamps>
+    </comp>
+    <comp ref="C46">
+      <value>15n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>dc3a4ec3-b7ba-41e1-82dd-3266be12b2fc</tstamps>
+    </comp>
+    <comp ref="C47">
+      <value>470u</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Voltage">80V</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="80V"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>4ce470c5-a142-4578-99bb-51c98970c223</tstamps>
+    </comp>
+    <comp ref="C48">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>34b925fd-1ffb-4ad1-bf64-4b2519a4b2d6</tstamps>
+    </comp>
+    <comp ref="C49">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>c2557ac7-ee26-4606-bda2-011687f6cfd2</tstamps>
+    </comp>
+    <comp ref="C50">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>fe67475f-8a92-4cd7-a991-e83df736a8fe</tstamps>
+    </comp>
+    <comp ref="C51">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>851537a9-7f31-412a-84e9-45a35d4ffe6a</tstamps>
+    </comp>
+    <comp ref="C52">
+      <value>15n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>2559bf5e-1852-4012-b3ba-45b6658a21b6</tstamps>
+    </comp>
+    <comp ref="C53">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>101d5971-7d14-4eea-b5be-a501cbd95dde</tstamps>
+    </comp>
+    <comp ref="C54">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>3433e63e-03f3-4167-b862-2d3bcb24d546</tstamps>
+    </comp>
+    <comp ref="C55">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="100V"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>fd3b1f4b-69e5-44d4-a8b5-6fcd4dcc52f2</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>HYG015N10NS1TA</value>
+      <footprint>Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1</footprint>
+      <fields>
+        <field name="LCSC-PN">C2979263</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC-PN" value="C2979263"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/source/drain"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>68f5c790-5a93-43e2-8ca7-468295983d16</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>HYG015N10NS1TA</value>
+      <footprint>Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1</footprint>
+      <fields>
+        <field name="LCSC-PN">C2979263</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC-PN" value="C2979263"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/source/drain"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>6b3b5bf8-8765-4c9c-969a-b8de09038a95</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>HYG015N10NS1TA</value>
+      <footprint>Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1</footprint>
+      <fields>
+        <field name="LCSC-PN">C2979263</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC-PN" value="C2979263"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/source/drain"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>e83867ef-4007-4fa4-9303-14778ff58508</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>HYG015N10NS1TA</value>
+      <footprint>Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1</footprint>
+      <fields>
+        <field name="LCSC-PN">C2979263</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC-PN" value="C2979263"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/source/drain"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>19b5c3d8-d864-469e-8f5e-7727bd7d9f44</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>HYG015N10NS1TA</value>
+      <footprint>Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1</footprint>
+      <fields>
+        <field name="LCSC-PN">C2979263</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC-PN" value="C2979263"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/source/drain"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>715701c2-8c12-46ca-bc8b-493d3c50baba</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>HYG015N10NS1TA</value>
+      <footprint>Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1</footprint>
+      <fields>
+        <field name="LCSC-PN">C2979263</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC-PN" value="C2979263"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/source/drain"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>dd6e5c82-e28a-4456-acac-6b7be09a6ef7</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>9cd3e2c7-65e7-484b-aeca-f826ae2eb17e</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>0.5m</value>
+      <footprint>TUWR_Sensors:BVN_1216</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2103091535_Isabellenhuette-BVN-Z-R0005-1-0_C2688874.pdf</datasheet>
+      <fields>
+        <field name="LCSC-PN">C2688874</field>
+      </fields>
+      <libsource lib="Device" part="R_Shunt" description="Shunt resistor"/>
+      <property name="LCSC-PN" value="C2688874"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Shunt resistor"/>
+      <property name="ki_keywords" value="R res shunt resistor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>af755fee-bb98-4147-99e9-295d6f8c1e79</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>4.7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>d8b5dc91-d302-432e-bea3-e2ec82b7b2a1</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>4.7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>c9183d38-9bca-486b-9457-2a44b7c42800</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>084246e3-cc4c-4784-a79f-2af77716446f</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>0.5m</value>
+      <footprint>TUWR_Sensors:BVN_1216</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2103091535_Isabellenhuette-BVN-Z-R0005-1-0_C2688874.pdf</datasheet>
+      <fields>
+        <field name="LCSC-PN">C2688874</field>
+      </fields>
+      <libsource lib="Device" part="R_Shunt" description="Shunt resistor"/>
+      <property name="LCSC-PN" value="C2688874"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Shunt resistor"/>
+      <property name="ki_keywords" value="R res shunt resistor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>7ada3bbf-03b3-4949-ac8d-a4f918ba9f6c</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>4.7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>42424965-a9e7-4784-9236-d5d6125c1055</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>4.7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>8d6bcab4-29c0-48f8-a5c0-6196cea51696</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>f6d48b43-2b5b-4236-9fd9-9bd42bf8b547</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>0.5m</value>
+      <footprint>TUWR_Sensors:BVN_1216</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2103091535_Isabellenhuette-BVN-Z-R0005-1-0_C2688874.pdf</datasheet>
+      <fields>
+        <field name="LCSC-PN">C2688874</field>
+      </fields>
+      <libsource lib="Device" part="R_Shunt" description="Shunt resistor"/>
+      <property name="LCSC-PN" value="C2688874"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Shunt resistor"/>
+      <property name="ki_keywords" value="R res shunt resistor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>6266619a-ed5a-4ab8-ab58-78ccaaffafe3</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>09dc3a18-bad1-4ef8-aa5a-b60c29fa8e1f</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>4.7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>e90d78fa-c0ad-4fc9-a528-7ad639283bdc</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>4.7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>04a85695-9d8c-427a-a021-8275c206282a</tstamps>
+    </comp>
+    <comp ref="TH1">
+      <value>NTC</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical</footprint>
+      <libsource lib="Device" part="Thermistor_NTC" description="Temperature dependent resistor, negative temperature coefficient"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Temperature dependent resistor, negative temperature coefficient"/>
+      <property name="ki_keywords" value="thermistor NTC resistor sensor RTD"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>2c9db909-8ab3-412e-a000-8520a62bd46a</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>AD8418</value>
+      <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf</datasheet>
+      <fields>
+        <field name="LCSC-PN">C147928</field>
+      </fields>
+      <libsource lib="Amplifier_Current" part="AD8418" description="70V Bidirectional, Zero Drift, Current Sense Amplifier, 20V/V gain, bandwidth 250kHz, VS=2.7V~5.5V, SOIC-8/MSOP-8"/>
+      <property name="LCSC-PN" value="C147928"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="70V Bidirectional, Zero Drift, Current Sense Amplifier, 20V/V gain, bandwidth 250kHz, VS=2.7V~5.5V, SOIC-8/MSOP-8"/>
+      <property name="ki_keywords" value="highside HS current sense amplifier linear"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>f3529abd-a3ce-4677-92bb-5be6c8297c3a</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>Mc74VHC1GT66</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>https://www.lcsc.com/product-detail/span-style-background-color-ff0-Analog-span-Switches-Multiplexers_Texas-Instruments-SN74LVC1G66DCKR_C113518.html</datasheet>
+      <fields>
+        <field name="LCSC-PN">C113518</field>
+      </fields>
+      <libsource lib="TUWR_IC" part="Mc74VHC1GT66" description=""/>
+      <property name="LCSC-PN" value="C113518"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>01b23d30-f263-418c-8cad-a3de57af59f3</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>Mc74VHC1GT66</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>https://www.lcsc.com/product-detail/span-style-background-color-ff0-Analog-span-Switches-Multiplexers_Texas-Instruments-SN74LVC1G66DCKR_C113518.html</datasheet>
+      <fields>
+        <field name="LCSC-PN">C113518</field>
+      </fields>
+      <libsource lib="TUWR_IC" part="Mc74VHC1GT66" description=""/>
+      <property name="LCSC-PN" value="C113518"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>24d51b65-72c6-451e-a42c-2f7502d6f63c</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>AD8418</value>
+      <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf</datasheet>
+      <fields>
+        <field name="LCSC-PN">C462197</field>
+      </fields>
+      <libsource lib="Amplifier_Current" part="AD8418" description="70V Bidirectional, Zero Drift, Current Sense Amplifier, 20V/V gain, bandwidth 250kHz, VS=2.7V~5.5V, SOIC-8/MSOP-8"/>
+      <property name="LCSC-PN" value="C462197"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="70V Bidirectional, Zero Drift, Current Sense Amplifier, 20V/V gain, bandwidth 250kHz, VS=2.7V~5.5V, SOIC-8/MSOP-8"/>
+      <property name="ki_keywords" value="highside HS current sense amplifier linear"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>2e701ea6-d5cb-4169-a531-553883f78c59</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>Mc74VHC1GT66</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>https://www.lcsc.com/product-detail/span-style-background-color-ff0-Analog-span-Switches-Multiplexers_Texas-Instruments-SN74LVC1G66DCKR_C113518.html</datasheet>
+      <fields>
+        <field name="LCSC-PN">C113518</field>
+      </fields>
+      <libsource lib="TUWR_IC" part="Mc74VHC1GT66" description=""/>
+      <property name="LCSC-PN" value="C113518"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>fd13afab-0a71-4e10-bc4e-2f8c1cbcc0cf</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>AD8418</value>
+      <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf</datasheet>
+      <fields>
+        <field name="LCSC-PN">C462197</field>
+      </fields>
+      <libsource lib="Amplifier_Current" part="AD8418" description="70V Bidirectional, Zero Drift, Current Sense Amplifier, 20V/V gain, bandwidth 250kHz, VS=2.7V~5.5V, SOIC-8/MSOP-8"/>
+      <property name="LCSC-PN" value="C462197"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="70V Bidirectional, Zero Drift, Current Sense Amplifier, 20V/V gain, bandwidth 250kHz, VS=2.7V~5.5V, SOIC-8/MSOP-8"/>
+      <property name="ki_keywords" value="highside HS current sense amplifier linear"/>
+      <sheetpath names="/VESC_Right/Power/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c55f885b-296c-477e-b007-69b23b61d335/"/>
+      <tstamps>9c16dab6-3e59-4c6d-a982-7944ef0a7186</tstamps>
+    </comp>
+    <comp ref="C57">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Sheetname" value="CAN"/>
+      <property name="Sheetfile" value="can.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/VESC_Right/CAN/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c257b8a6-6d1e-4324-8ba8-0db9ba23705f/"/>
+      <tstamps>7f8d2eb5-a207-49ce-b3d0-7b3d55185b27</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC-PN" value=""/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="CAN"/>
+      <property name="Sheetfile" value="can.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VESC_Right/CAN/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c257b8a6-6d1e-4324-8ba8-0db9ba23705f/"/>
+      <tstamps>b4e41f96-9ac0-481f-ad25-3c6c7fca02b5</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>SN65HVD232</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810181615_Texas-Instruments-SN65HVD232DR_C30530.pdf</datasheet>
+      <fields>
+        <field name="LCSC-PN">C30530</field>
+      </fields>
+      <libsource lib="Interface_CAN_LIN" part="SN65HVD232" description="CAN Bus Transceivers, 3.3V, 1Mbps, SOIC-8"/>
+      <property name="LCSC-PN" value="C30530"/>
+      <property name="Voltage" value=""/>
+      <property name="Sheetname" value="CAN"/>
+      <property name="Sheetfile" value="can.kicad_sch"/>
+      <property name="ki_description" value="CAN Bus Transceivers, 3.3V, 1Mbps, SOIC-8"/>
+      <property name="ki_keywords" value="can transeiver ti"/>
+      <sheetpath names="/VESC_Right/CAN/" tstamps="/d0b74a93-0449-453b-b8db-30b7f6228718/c257b8a6-6d1e-4324-8ba8-0db9ba23705f/"/>
+      <tstamps>e33eb8a5-5116-41ad-8930-65b1193deb4a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2023-03-11_13-45-03" part="DRV8301DCAR">
+      <footprints>
+        <fp>DCA56_6P35X3P61</fp>
+        <fp>DCA56_6P35X3P61-M</fp>
+        <fp>DCA56_6P35X3P61-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV8301DCAR</field>
+        <field name="Footprint">DCA56_6P35X3P61</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RT_CLK" type="input"/>
+        <pin num="2" name="COMP" type="output"/>
+        <pin num="3" name="VSENSE" type="input"/>
+        <pin num="4" name="PWRGD" type="input"/>
+        <pin num="5" name="*OCTW" type="output"/>
+        <pin num="6" name="*FAULT" type="output"/>
+        <pin num="7" name="DTC" type="input"/>
+        <pin num="8" name="*SCS" type="input"/>
+        <pin num="9" name="SDI" type="input"/>
+        <pin num="10" name="SDO" type="output"/>
+        <pin num="11" name="SCLK" type="input"/>
+        <pin num="12" name="DC_CAL" type="input"/>
+        <pin num="13" name="GVDD" type="power_in"/>
+        <pin num="14" name="CP1" type="power_in"/>
+        <pin num="15" name="CP2" type="power_in"/>
+        <pin num="16" name="EN_GATE" type="input"/>
+        <pin num="17" name="INH_A" type="input"/>
+        <pin num="18" name="INL_A" type="input"/>
+        <pin num="19" name="INH_B" type="input"/>
+        <pin num="20" name="INL_B" type="input"/>
+        <pin num="21" name="INH_C" type="input"/>
+        <pin num="22" name="INL_C" type="input"/>
+        <pin num="23" name="DVDD" type="power_in"/>
+        <pin num="24" name="REF" type="input"/>
+        <pin num="25" name="SO1" type="output"/>
+        <pin num="26" name="SO2" type="output"/>
+        <pin num="27" name="AVDD" type="power_in"/>
+        <pin num="28" name="AGND" type="power_in"/>
+        <pin num="29" name="PVDD1" type="power_in"/>
+        <pin num="30" name="SP2" type="input"/>
+        <pin num="31" name="SN2" type="input"/>
+        <pin num="32" name="SP1" type="input"/>
+        <pin num="33" name="SN1" type="input"/>
+        <pin num="34" name="SL_C" type="input"/>
+        <pin num="35" name="GL_C" type="output"/>
+        <pin num="36" name="SH_C" type="input"/>
+        <pin num="37" name="GH_C" type="output"/>
+        <pin num="38" name="BST_C" type="power_in"/>
+        <pin num="39" name="SL_B" type="input"/>
+        <pin num="40" name="GL_B" type="output"/>
+        <pin num="41" name="SH_B" type="input"/>
+        <pin num="42" name="GH_B" type="output"/>
+        <pin num="43" name="BST_B" type="power_in"/>
+        <pin num="44" name="SL_A" type="input"/>
+        <pin num="45" name="GL_A" type="output"/>
+        <pin num="46" name="SH_A" type="input"/>
+        <pin num="47" name="GH_A" type="output"/>
+        <pin num="48" name="BST_A" type="power_in"/>
+        <pin num="49" name="VDD_SPI" type="input"/>
+        <pin num="50" name="PH" type="output"/>
+        <pin num="51" name="PH" type="output"/>
+        <pin num="52" name="BST_BK" type="power_in"/>
+        <pin num="53" name="PVDD2" type="power_in"/>
+        <pin num="54" name="PVDD2" type="power_in"/>
+        <pin num="55" name="EN_BUCK" type="input"/>
+        <pin num="56" name="SS_TR" type="input"/>
+        <pin num="57" name="EPAD" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Current" part="AD8418">
+      <description>70V Bidirectional, Zero Drift, Current Sense Amplifier, 20V/V gain, bandwidth 250kHz, VS=2.7V~5.5V, SOIC-8/MSOP-8</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD8418</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN-" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="REF2" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="output"/>
+        <pin num="6" name="VS" type="power_in"/>
+        <pin num="7" name="REF1" type="input"/>
+        <pin num="8" name="IN+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_OTG">
+      <description>USB mini/micro connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_OTG</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="passive"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GSD">
+      <description>N-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Shunt">
+      <description>Shunt resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*Shunt*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Shunt</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Thermistor_NTC">
+      <description>Temperature dependent resistor, negative temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor_NTC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_CAN_LIN" part="SN65HVD232">
+      <description>CAN Bus Transceivers, 3.3V, 1Mbps, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN65HVD232</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="R" type="output"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="CANL" type="bidirectional"/>
+        <pin num="7" name="CANH" type="bidirectional"/>
+        <pin num="8" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32F4" part="STM32F405RGTx">
+      <description>ARM Cortex-M4 MCU, 1024KB flash, 128KB RAM, 168MHz, 1.8-3.6V, 51 GPIO, LQFP-64</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf</docs>
+      <footprints>
+        <fp>LQFP*10x10mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F405RGTx</field>
+        <field name="Footprint">Package_QFP:LQFP-64_10x10mm_P0.5mm</field>
+        <field name="Datasheet">http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="bidirectional"/>
+        <pin num="3" name="PC14" type="bidirectional"/>
+        <pin num="4" name="PC15" type="bidirectional"/>
+        <pin num="5" name="PH0" type="input"/>
+        <pin num="6" name="PH1" type="input"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="PC0" type="bidirectional"/>
+        <pin num="9" name="PC1" type="bidirectional"/>
+        <pin num="10" name="PC2" type="bidirectional"/>
+        <pin num="11" name="PC3" type="bidirectional"/>
+        <pin num="12" name="VSSA" type="power_in"/>
+        <pin num="13" name="VDDA" type="power_in"/>
+        <pin num="14" name="PA0" type="bidirectional"/>
+        <pin num="15" name="PA1" type="bidirectional"/>
+        <pin num="16" name="PA2" type="bidirectional"/>
+        <pin num="17" name="PA3" type="bidirectional"/>
+        <pin num="18" name="VSS" type="power_in"/>
+        <pin num="19" name="VDD" type="power_in"/>
+        <pin num="20" name="PA4" type="bidirectional"/>
+        <pin num="21" name="PA5" type="bidirectional"/>
+        <pin num="22" name="PA6" type="bidirectional"/>
+        <pin num="23" name="PA7" type="bidirectional"/>
+        <pin num="24" name="PC4" type="bidirectional"/>
+        <pin num="25" name="PC5" type="bidirectional"/>
+        <pin num="26" name="PB0" type="bidirectional"/>
+        <pin num="27" name="PB1" type="bidirectional"/>
+        <pin num="28" name="PB2" type="bidirectional"/>
+        <pin num="29" name="PB10" type="bidirectional"/>
+        <pin num="30" name="PB11" type="bidirectional"/>
+        <pin num="31" name="VCAP_1" type="power_in"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="PB12" type="bidirectional"/>
+        <pin num="34" name="PB13" type="bidirectional"/>
+        <pin num="35" name="PB14" type="bidirectional"/>
+        <pin num="36" name="PB15" type="bidirectional"/>
+        <pin num="37" name="PC6" type="bidirectional"/>
+        <pin num="38" name="PC7" type="bidirectional"/>
+        <pin num="39" name="PC8" type="bidirectional"/>
+        <pin num="40" name="PC9" type="bidirectional"/>
+        <pin num="41" name="PA8" type="bidirectional"/>
+        <pin num="42" name="PA9" type="bidirectional"/>
+        <pin num="43" name="PA10" type="bidirectional"/>
+        <pin num="44" name="PA11" type="bidirectional"/>
+        <pin num="45" name="PA12" type="bidirectional"/>
+        <pin num="46" name="PA13" type="bidirectional"/>
+        <pin num="47" name="VCAP_2" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+        <pin num="49" name="PA14" type="bidirectional"/>
+        <pin num="50" name="PA15" type="bidirectional"/>
+        <pin num="51" name="PC10" type="bidirectional"/>
+        <pin num="52" name="PC11" type="bidirectional"/>
+        <pin num="53" name="PC12" type="bidirectional"/>
+        <pin num="54" name="PD2" type="bidirectional"/>
+        <pin num="55" name="PB3" type="bidirectional"/>
+        <pin num="56" name="PB4" type="bidirectional"/>
+        <pin num="57" name="PB5" type="bidirectional"/>
+        <pin num="58" name="PB6" type="bidirectional"/>
+        <pin num="59" name="PB7" type="bidirectional"/>
+        <pin num="60" name="BOOT0" type="input"/>
+        <pin num="61" name="PB8" type="bidirectional"/>
+        <pin num="62" name="PB9" type="bidirectional"/>
+        <pin num="63" name="VSS" type="power_in"/>
+        <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="TLV73333PDBV">
+      <description>300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv733p.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV73333PDBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv733p.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push_SPDT">
+      <description>Momentary Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_SPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TUWR_IC" part="Mc74VHC1GT66">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Mc74VHC1GT66</field>
+        <field name="Footprint">Package_SO:TSOP-5_1.65x3.05mm_P0.95mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO_XA" type="input"/>
+        <pin num="2" name="IO_YA" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="ON_OFF" type="input"/>
+        <pin num="5" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Current">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Amplifier_Current.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Interface_CAN_LIN">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Interface_CAN_LIN.kicad_sym</uri>
+    </library>
+    <library logical="MCU_ST_STM32F4">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_ST_STM32F4.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="TUWR_IC">
+      <uri>C:\Users\paulr\vesc_6_2/libs/symbol/TUWR_IC.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/VESC_Right/3.3V">
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="C44" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C51" pin="2" pintype="passive"/>
+      <node ref="C57" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="TH1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U1" pin="13" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U1" pin="19" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="32" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="48" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="64" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U10" pin="6" pinfunction="VS" pintype="power_in"/>
+      <node ref="U10" pin="7" pinfunction="REF1" pintype="input"/>
+      <node ref="U11" pin="5" pinfunction="VCC" pintype="input"/>
+      <node ref="U12" pin="6" pinfunction="VS" pintype="power_in"/>
+      <node ref="U12" pin="7" pinfunction="REF1" pintype="input"/>
+      <node ref="U14" pin="3" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="VCC" pintype="input"/>
+      <node ref="U3" pin="49" pinfunction="VDD_SPI" pintype="input"/>
+      <node ref="U4" pin="5" pinfunction="VCC" pintype="input"/>
+      <node ref="U5" pin="5" pinfunction="VCC" pintype="input"/>
+      <node ref="U6" pin="5" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U7" pin="6" pinfunction="VS" pintype="power_in"/>
+      <node ref="U7" pin="7" pinfunction="REF1" pintype="input"/>
+      <node ref="U8" pin="5" pinfunction="VCC" pintype="input"/>
+      <node ref="U9" pin="5" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="2" name="/VESC_Right/5V">
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U6" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="3" name="/VESC_Right/CAN/RX">
+      <node ref="U1" pin="61" pinfunction="PB8" pintype="bidirectional"/>
+      <node ref="U14" pin="4" pinfunction="R" pintype="output"/>
+    </net>
+    <net code="4" name="/VESC_Right/CAN/TX">
+      <node ref="U1" pin="62" pinfunction="PB9" pintype="bidirectional"/>
+      <node ref="U14" pin="1" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="5" name="/VESC_Right/CAN_H">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="U14" pin="7" pinfunction="CANH" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/VESC_Right/CAN_L">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="U14" pin="6" pinfunction="CANL" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/VESC_Right/DRV8301/CS">
+      <node ref="U1" pin="40" pinfunction="PC9" pintype="bidirectional"/>
+      <node ref="U3" pin="8" pinfunction="*SCS" pintype="input"/>
+    </net>
+    <net code="8" name="/VESC_Right/DRV8301/EN_GATE">
+      <node ref="U1" pin="57" pinfunction="PB5" pintype="bidirectional"/>
+      <node ref="U3" pin="16" pinfunction="EN_GATE" pintype="input"/>
+    </net>
+    <net code="9" name="/VESC_Right/DRV8301/FAULT">
+      <node ref="U1" pin="59" pinfunction="PB7" pintype="bidirectional"/>
+      <node ref="U3" pin="6" pinfunction="*FAULT" pintype="output"/>
+    </net>
+    <net code="10" name="/VESC_Right/DRV8301/GH_A">
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U3" pin="47" pinfunction="GH_A" pintype="output"/>
+    </net>
+    <net code="11" name="/VESC_Right/DRV8301/GH_B">
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="U3" pin="42" pinfunction="GH_B" pintype="output"/>
+    </net>
+    <net code="12" name="/VESC_Right/DRV8301/GH_C">
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="U3" pin="37" pinfunction="GH_C" pintype="output"/>
+    </net>
+    <net code="13" name="/VESC_Right/DRV8301/GL_A">
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="U3" pin="45" pinfunction="GL_A" pintype="output"/>
+    </net>
+    <net code="14" name="/VESC_Right/DRV8301/GL_B">
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="U3" pin="40" pinfunction="GL_B" pintype="output"/>
+    </net>
+    <net code="15" name="/VESC_Right/DRV8301/GL_C">
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="U3" pin="35" pinfunction="GL_C" pintype="output"/>
+    </net>
+    <net code="16" name="/VESC_Right/DRV8301/INH_A">
+      <node ref="U1" pin="41" pinfunction="PA8" pintype="bidirectional"/>
+      <node ref="U3" pin="17" pinfunction="INH_A" pintype="input"/>
+    </net>
+    <net code="17" name="/VESC_Right/DRV8301/INH_B">
+      <node ref="U1" pin="42" pinfunction="PA9" pintype="bidirectional"/>
+      <node ref="U3" pin="19" pinfunction="INH_B" pintype="input"/>
+    </net>
+    <net code="18" name="/VESC_Right/DRV8301/INH_C">
+      <node ref="U1" pin="43" pinfunction="PA10" pintype="bidirectional"/>
+      <node ref="U3" pin="21" pinfunction="INH_C" pintype="input"/>
+    </net>
+    <net code="19" name="/VESC_Right/DRV8301/INL_A">
+      <node ref="U1" pin="34" pinfunction="PB13" pintype="bidirectional"/>
+      <node ref="U3" pin="18" pinfunction="INL_A" pintype="input"/>
+    </net>
+    <net code="20" name="/VESC_Right/DRV8301/INL_B">
+      <node ref="U1" pin="35" pinfunction="PB14" pintype="bidirectional"/>
+      <node ref="U3" pin="20" pinfunction="INL_B" pintype="input"/>
+    </net>
+    <net code="21" name="/VESC_Right/DRV8301/INL_C">
+      <node ref="U1" pin="36" pinfunction="PB15" pintype="bidirectional"/>
+      <node ref="U3" pin="22" pinfunction="INL_C" pintype="input"/>
+    </net>
+    <net code="22" name="/VESC_Right/DRV8301/SCLK">
+      <node ref="U1" pin="51" pinfunction="PC10" pintype="bidirectional"/>
+      <node ref="U3" pin="11" pinfunction="SCLK" pintype="input"/>
+    </net>
+    <net code="23" name="/VESC_Right/DRV8301/SDI">
+      <node ref="U1" pin="56" pinfunction="PB4" pintype="bidirectional"/>
+      <node ref="U3" pin="9" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="24" name="/VESC_Right/DRV8301/SDO">
+      <node ref="U1" pin="55" pinfunction="PB3" pintype="bidirectional"/>
+      <node ref="U3" pin="10" pinfunction="SDO" pintype="output"/>
+    </net>
+    <net code="25" name="/VESC_Right/DRV8301/SENS_A">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/VESC_Right/DRV8301/SENS_B">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/VESC_Right/DRV8301/SENS_C">
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/VESC_Right/DRV8301/SENS_FILTERED">
+      <node ref="U1" pin="2" pinfunction="PC13" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="ON_OFF" pintype="input"/>
+      <node ref="U4" pin="4" pinfunction="ON_OFF" pintype="input"/>
+      <node ref="U5" pin="4" pinfunction="ON_OFF" pintype="input"/>
+    </net>
+    <net code="29" name="/VESC_Right/DRV8301/SENS_SUPPLY">
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PC3" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/VESC_Right/DRV8301/SH_B">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R35" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="41" pinfunction="SH_B" pintype="input"/>
+    </net>
+    <net code="31" name="/VESC_Right/DRV8301/SH_C">
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R39" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="36" pinfunction="SH_C" pintype="input"/>
+    </net>
+    <net code="32" name="/VESC_Right/DRV8301/SUPPLY">
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="C42" pin="1" pintype="passive"/>
+      <node ref="C43" pin="1" pintype="passive"/>
+      <node ref="C45" pin="1" pintype="passive"/>
+      <node ref="C47" pin="1" pintype="passive"/>
+      <node ref="C49" pin="1" pintype="passive"/>
+      <node ref="C50" pin="1" pintype="passive"/>
+      <node ref="C54" pin="1" pintype="passive"/>
+      <node ref="C55" pin="1" pintype="passive"/>
+      <node ref="C56" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="/VESC_Right/DRV8301/Supply_Filterted">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C58" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="29" pinfunction="PVDD1" pintype="power_in"/>
+      <node ref="U3" pin="53" pinfunction="PVDD2" pintype="power_in"/>
+      <node ref="U3" pin="54" pinfunction="PVDD2" pintype="power_in"/>
+    </net>
+    <net code="34" name="/VESC_Right/EN_BUCK">
+      <node ref="U3" pin="55" pinfunction="EN_BUCK" pintype="input"/>
+    </net>
+    <net code="35" name="/VESC_Right/MCU/ADC_15">
+      <node ref="U1" pin="25" pinfunction="PC5" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/VESC_Right/MCU/ADC_TEMP">
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="TH1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/VESC_Right/MCU/CURRENT_1">
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PC0" pintype="bidirectional"/>
+      <node ref="U8" pin="1" pinfunction="IO_XA" pintype="input"/>
+    </net>
+    <net code="38" name="/VESC_Right/MCU/CURRENT_2">
+      <node ref="C48" pin="2" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="PC1" pintype="bidirectional"/>
+      <node ref="U9" pin="1" pinfunction="IO_XA" pintype="input"/>
+    </net>
+    <net code="39" name="/VESC_Right/MCU/CURRENT_3">
+      <node ref="C53" pin="2" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PC2" pintype="bidirectional"/>
+      <node ref="U11" pin="1" pinfunction="IO_XA" pintype="input"/>
+    </net>
+    <net code="40" name="/VESC_Right/MCU/CURR_FILTER_ON">
+      <node ref="U1" pin="54" pinfunction="PD2" pintype="bidirectional"/>
+      <node ref="U11" pin="4" pinfunction="ON_OFF" pintype="input"/>
+      <node ref="U8" pin="4" pinfunction="ON_OFF" pintype="input"/>
+      <node ref="U9" pin="4" pinfunction="ON_OFF" pintype="input"/>
+    </net>
+    <net code="41" name="/VESC_Right/MCU/HALL_1">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="37" pinfunction="PC6" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/VESC_Right/MCU/HALL_2">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="PC7" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/VESC_Right/MCU/HALL_3">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="PC8" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/VESC_Right/MCU/LED_GREEN">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/VESC_Right/MCU/LED_RED">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/VESC_Right/MCU/MISO_ADC_EXT2">
+      <node ref="U1" pin="22" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/VESC_Right/MCU/NRST">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="NRST" pintype="input"/>
+    </net>
+    <net code="48" name="/VESC_Right/MCU/RX_SDA_NSS">
+      <node ref="U1" pin="30" pinfunction="PB11" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="/VESC_Right/MCU/SCK_ADC_EXT">
+      <node ref="U1" pin="21" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="/VESC_Right/MCU/SERVO">
+      <node ref="U1" pin="58" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/VESC_Right/MCU/SWCLK">
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="49" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="/VESC_Right/MCU/SWDIO">
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="46" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/VESC_Right/MCU/TEMP_MOTOR">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="PC4" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="/VESC_Right/MCU/TX_SCL_MOSI">
+      <node ref="U1" pin="29" pinfunction="PB10" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="/VESC_Right/MCU/USB_D_N">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="44" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="/VESC_Right/MCU/USB_D_P">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="45" pinfunction="PA12" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="/VESC_Right/Power/C_A">
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="58" name="/VESC_Right/Power/C_B">
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="U10" pin="5" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="59" name="/VESC_Right/Power/C_C">
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="U12" pin="5" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="60" name="/VESC_Right/Power/PH_A">
+      <node ref="R31" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="61" name="/VESC_Right/Power/PH_B">
+      <node ref="R35" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="62" name="/VESC_Right/Power/PH_C">
+      <node ref="R39" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="63" name="/VESC_Right/SH_A">
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="46" pinfunction="SH_A" pintype="input"/>
+    </net>
+    <net code="64" name="GND">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="C43" pin="2" pintype="passive"/>
+      <node ref="C44" pin="1" pintype="passive"/>
+      <node ref="C45" pin="2" pintype="passive"/>
+      <node ref="C46" pin="1" pintype="passive"/>
+      <node ref="C47" pin="2" pintype="passive"/>
+      <node ref="C48" pin="1" pintype="passive"/>
+      <node ref="C49" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C50" pin="2" pintype="passive"/>
+      <node ref="C51" pin="1" pintype="passive"/>
+      <node ref="C52" pin="1" pintype="passive"/>
+      <node ref="C53" pin="1" pintype="passive"/>
+      <node ref="C54" pin="2" pintype="passive"/>
+      <node ref="C55" pin="2" pintype="passive"/>
+      <node ref="C56" pin="2" pintype="passive"/>
+      <node ref="C57" pin="2" pintype="passive"/>
+      <node ref="C58" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="VSSA" pintype="power_in"/>
+      <node ref="U1" pin="18" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="60" pinfunction="BOOT0" pintype="input"/>
+      <node ref="U1" pin="63" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U10" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U10" pin="3" pinfunction="REF2" pintype="input"/>
+      <node ref="U11" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U12" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="3" pinfunction="REF2" pintype="input"/>
+      <node ref="U14" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="IO_YA" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U3" pin="28" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U3" pin="30" pinfunction="SP2" pintype="input"/>
+      <node ref="U3" pin="31" pinfunction="SN2" pintype="input"/>
+      <node ref="U3" pin="32" pinfunction="SP1" pintype="input"/>
+      <node ref="U3" pin="33" pinfunction="SN1" pintype="input"/>
+      <node ref="U3" pin="34" pinfunction="SL_C" pintype="input"/>
+      <node ref="U3" pin="39" pinfunction="SL_B" pintype="input"/>
+      <node ref="U3" pin="44" pinfunction="SL_A" pintype="input"/>
+      <node ref="U3" pin="57" pinfunction="EPAD" pintype="unspecified"/>
+      <node ref="U4" pin="2" pinfunction="IO_YA" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="IO_YA" pintype="input"/>
+      <node ref="U5" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="3" pinfunction="REF2" pintype="input"/>
+      <node ref="U8" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U9" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(D6-A)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(D7-A)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(D8-K)">
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="50" pinfunction="PH" pintype="output"/>
+      <node ref="U3" pin="51" pinfunction="PH" pintype="output"/>
+    </net>
+    <net code="70" name="Net-(J2-Pin_1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(J6-D+)">
+      <node ref="J6" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(J6-D-)">
+      <node ref="J6" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(J6-VBUS)">
+      <node ref="J6" pin="1" pinfunction="VBUS" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(Q1-D)">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(Q2-G)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(Q3-G)">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(Q4-G)">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(Q5-G)">
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(Q6-G)">
+      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(Q7-G)">
+      <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(U1-PH0)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PH0" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(U1-PH1)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PH1" pintype="input"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(U1-VCAP_1)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="VCAP_1" pintype="power_in"/>
+    </net>
+    <net code="84" name="Net-(U1-VCAP_2)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="U1" pin="47" pinfunction="VCAP_2" pintype="power_in"/>
+    </net>
+    <net code="85" name="Net-(U2-IO_XA)">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IO_XA" pintype="input"/>
+    </net>
+    <net code="86" name="Net-(U3-AVDD)">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="U3" pin="24" pinfunction="REF" pintype="input"/>
+      <node ref="U3" pin="27" pinfunction="AVDD" pintype="power_in"/>
+    </net>
+    <net code="87" name="Net-(U3-BST_A)">
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="U3" pin="48" pinfunction="BST_A" pintype="power_in"/>
+    </net>
+    <net code="88" name="Net-(U3-BST_B)">
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="U3" pin="43" pinfunction="BST_B" pintype="power_in"/>
+    </net>
+    <net code="89" name="Net-(U3-BST_BK)">
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="U3" pin="52" pinfunction="BST_BK" pintype="power_in"/>
+    </net>
+    <net code="90" name="Net-(U3-BST_C)">
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="U3" pin="38" pinfunction="BST_C" pintype="power_in"/>
+    </net>
+    <net code="91" name="Net-(U3-COMP)">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="COMP" pintype="output"/>
+    </net>
+    <net code="92" name="Net-(U3-CP1)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="GVDD" pintype="power_in"/>
+      <node ref="U3" pin="14" pinfunction="CP1" pintype="power_in"/>
+    </net>
+    <net code="93" name="Net-(U3-CP2)">
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="CP2" pintype="power_in"/>
+    </net>
+    <net code="94" name="Net-(U3-DTC)">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="DTC" pintype="input"/>
+    </net>
+    <net code="95" name="Net-(U3-DVDD)">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="U3" pin="23" pinfunction="DVDD" pintype="power_in"/>
+    </net>
+    <net code="96" name="Net-(U3-RT_CLK)">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="RT_CLK" pintype="input"/>
+    </net>
+    <net code="97" name="Net-(U3-SS_TR)">
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="U3" pin="56" pinfunction="SS_TR" pintype="input"/>
+    </net>
+    <net code="98" name="Net-(U3-VSENSE)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VSENSE" pintype="input"/>
+    </net>
+    <net code="99" name="Net-(U4-IO_XA)">
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="IO_XA" pintype="input"/>
+    </net>
+    <net code="100" name="Net-(U5-IO_XA)">
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="IO_XA" pintype="input"/>
+    </net>
+    <net code="101" name="Net-(U7-IN+)">
+      <node ref="R31" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="IN+" pintype="input"/>
+    </net>
+    <net code="102" name="Net-(U7-IN-)">
+      <node ref="R31" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="IN-" pintype="input"/>
+    </net>
+    <net code="103" name="Net-(U8-IO_YA)">
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="IO_YA" pintype="input"/>
+    </net>
+    <net code="104" name="Net-(U9-IO_YA)">
+      <node ref="C46" pin="2" pintype="passive"/>
+      <node ref="U9" pin="2" pinfunction="IO_YA" pintype="input"/>
+    </net>
+    <net code="105" name="Net-(U10-IN+)">
+      <node ref="R35" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U10" pin="8" pinfunction="IN+" pintype="input"/>
+    </net>
+    <net code="106" name="Net-(U10-IN-)">
+      <node ref="R35" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U10" pin="1" pinfunction="IN-" pintype="input"/>
+    </net>
+    <net code="107" name="Net-(U11-IO_YA)">
+      <node ref="C52" pin="2" pintype="passive"/>
+      <node ref="U11" pin="2" pinfunction="IO_YA" pintype="input"/>
+    </net>
+    <net code="108" name="Net-(U12-IN+)">
+      <node ref="R39" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U12" pin="8" pinfunction="IN+" pintype="input"/>
+    </net>
+    <net code="109" name="Net-(U12-IN-)">
+      <node ref="R39" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U12" pin="1" pinfunction="IN-" pintype="input"/>
+    </net>
+    <net code="110" name="unconnected-(J6-ID-Pad4)">
+      <node ref="J6" pin="4" pinfunction="ID" pintype="passive"/>
+    </net>
+    <net code="111" name="unconnected-(U1-PA4-Pad20)">
+      <node ref="U1" pin="20" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="112" name="unconnected-(U1-PA7-Pad23)">
+      <node ref="U1" pin="23" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="113" name="unconnected-(U1-PA15-Pad50)">
+      <node ref="U1" pin="50" pinfunction="PA15" pintype="bidirectional"/>
+    </net>
+    <net code="114" name="unconnected-(U1-PB2-Pad28)">
+      <node ref="U1" pin="28" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="115" name="unconnected-(U1-PB12-Pad33)">
+      <node ref="U1" pin="33" pinfunction="PB12" pintype="bidirectional"/>
+    </net>
+    <net code="116" name="unconnected-(U1-PC11-Pad52)">
+      <node ref="U1" pin="52" pinfunction="PC11" pintype="bidirectional"/>
+    </net>
+    <net code="117" name="unconnected-(U1-PC12-Pad53)">
+      <node ref="U1" pin="53" pinfunction="PC12" pintype="bidirectional"/>
+    </net>
+    <net code="118" name="unconnected-(U1-PC14-Pad3)">
+      <node ref="U1" pin="3" pinfunction="PC14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(U1-PC15-Pad4)">
+      <node ref="U1" pin="4" pinfunction="PC15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(U3-*OCTW-Pad5)">
+      <node ref="U3" pin="5" pinfunction="*OCTW" pintype="output+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(U3-DC_CAL-Pad12)">
+      <node ref="U3" pin="12" pinfunction="DC_CAL" pintype="input+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(U3-PWRGD-Pad4)">
+      <node ref="U3" pin="4" pinfunction="PWRGD" pintype="input+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(U3-SO1-Pad25)">
+      <node ref="U3" pin="25" pinfunction="SO1" pintype="output+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(U3-SO2-Pad26)">
+      <node ref="U3" pin="26" pinfunction="SO2" pintype="output+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(U6-NC-Pad4)">
+      <node ref="U6" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(U7-NC-Pad4)">
+      <node ref="U7" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="127" name="unconnected-(U10-NC-Pad4)">
+      <node ref="U10" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(U12-NC-Pad4)">
+      <node ref="U12" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="129" name="unconnected-(U14-NC-Pad5)">
+      <node ref="U14" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(U14-NC-Pad8)">
+      <node ref="U14" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
